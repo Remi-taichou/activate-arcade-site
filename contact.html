@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<title>Contact</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+<h1>Activate: Canada's Arcade</h1>
+<p>
+<a href = "index.html">Home</a>
+<a href = "games.html">Games</a>
+<a href = "locations.html">Locations</a>
+<a href = "contact.html">Contact</a>
+</p>
+<h2>Contact</h2>
+<p>You can contact any of our branches nearby for support by filling this form</p>
+
+<!-- form starts here; action is a placeholder, no server-side code yet -->
+<form method = "post" action = "http://www.deitel.com">
+
+<!-- hidden input: sent with the form but not shown on the page -->
+<input type = "hidden" name = "subject" value = "Contact Form">
+
+<p><label>Name:
+<input type = "text" name = "fname" size = "25" maxlength = "30">
+</label></p>
+
+<p><label>Last name:
+<input type = "text" name = "lastname" size = "25" maxlength = "30">
+</label></p>
+
+<p><label>E-mail:
+<input type = "text" name = "email" size = "30" maxlength = "50">
+</label></p>
+
+<p><label>Create a password:
+<input type = "password" name = "pass" size = "15" maxlength = "12">
+</label></p>
+
+<p><label>Telephone:
+<input type = "text" name = "telephone" size = "15" maxlength = "14">
+</label></p>
+
+<p><label>Date of visit:
+<input type = "text" name = "date" size = "12" maxlength = "10">
+</label></p>
+
+<p><label>How many players?
+<select name = "players">
+<option selected>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+</select>
+</label></p>
+
+<p><label>Branch:
+<select name = "branch">
+<option value = "Mississauga">Mississauga</option>
+<option value = "Halifax">Halifax</option>
+<option value = "Regina">Regina SK</option>
+<option value = "Coquitlam">Coquitlam BC</option>
+<option value = "Pickering">Pickering ON</option>
+<option value = "Calgary North">Calgary North</option>
+<option value = "Edmonton South">Edmonton AB</option>
+</select>
+</label></p>
+
+<p><strong>Type of visit:</strong><br>
+<label>Tour <input name = "visit" type = "radio" value = "Tour" checked></label>
+<label>Pay &amp; Play <input name = "visit" type = "radio" value = "Pay and Play"></label>
+</p>
+
+<p><strong>Interested in:</strong><br>
+<label>Laser tag <input name = "games" type = "checkbox" value = "Laser tag"></label>
+<label>Climb <input name = "games" type = "checkbox" value = "Climb"></label>
+<label>Barrage <input name = "games" type = "checkbox" value = "Barrage"></label>
+<label>Dunk <input name = "games" type = "checkbox" value = "Dunk"></label>
+</p>
+
+<p><label>Comments:<br>
+<textarea name = "comments" rows = "4" cols = "36">Enter comments here...</textarea>
+</label></p>
+
+<p>
+<input type = "submit" value = "Submit" style = "background-color: #00c8ff;">
+<input type = "reset" value = "Clear">
+</p>
+</form>
+
+<p>Testimony Charles</p>
+<p>CS 2060 Assignment 1</p>
+</body>
+</html>
