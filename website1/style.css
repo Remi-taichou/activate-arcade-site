@@ -1,6 +1,0 @@
-/* external style sheet: shared look for all four pages */
-body { background-color: #111111; color: white; font-family: arial, sans-serif; }
-a { color: #00c8ff; }
-a:hover { color: yellow; }
-th { border-width: 1px; border-style: solid; border-color: #00c8ff; padding: 6px; }
-td { border-width: 1px; border-style: solid; border-color: #00c8ff; padding: 6px; }
